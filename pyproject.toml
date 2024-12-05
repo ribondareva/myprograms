@@ -11,6 +11,7 @@ python = "^3.12"
 uvicorn = {extras = ["standard"], version = "^0.32.1"}
 pydantic = {extras = ["email"], version = "^2.10.3"}
 sqlalchemy = {extras = ["asincio"], version = "^2.0.36"}
+aiosqlite = "^0.20.0"
 
 
 [tool.poetry.group.dev.dependencies]
